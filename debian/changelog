@@ -1,0 +1,5 @@
+python-glanceclient (2012.1-1) oneiric; urgency=low
+
+  * replicated packaging for glancelcient
+
+ -- Nebula Inc, based on work by Rackspace and Jacob Kaplan-Moss <joe.heck@nebula.com>  Tue, 15 May 2012 14:33:48 -0800

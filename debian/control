@@ -1,0 +1,27 @@
+Source: python-glanceclient
+Maintainer: Nebula Inc, based on work by Rackspace and Jacob Kaplan-Moss <joe.heck@nebula.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-glanceclient
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+ python-argparse,
+ python-httplib2,
+ python-prettytable,
+ python-keystoneclient
+Description: Client library for OpenStack Glance API
+ Python bindings to the OpenStack Glance API
+ ===========================================
+ .
+ This is a client for the OpenStack Glance API. There's a Python API (the
+ ``glanceclient`` module), and a command-line script (``glance``).
+ .
+ Development takes place on GitHub__. Bug reports and patches may be filed there.
+ .
+ __ https://github.com/4P/python-glanceclient
+ .
+ The python-glanceclient is licensed under
+ the Apache License like the rest of OpenStack.
